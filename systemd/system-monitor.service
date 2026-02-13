@@ -1,0 +1,11 @@
+[Unit]
+Description=System Resource Monitoring Script
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/YOUR_USERNAME/scripts/monitor.sh  
+User=YOUR_USERNAME                                 
+Group=YOUR_USERNAME
+StandardOutput=append:/var/log/system-monitor.log
+StandardError=append:/var/log/system-monitor.log
