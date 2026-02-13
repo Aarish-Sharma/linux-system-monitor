@@ -147,7 +147,3 @@ Entries are appended to `/var/log/system-monitor.log` on every run:
 - Consider using a dedicated Gmail account for sending alerts
 
 ---
-
-## 📄 License
-
-MIT License. See [LICENSE](LICENSE) for details.
